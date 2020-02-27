@@ -1,0 +1,61 @@
+.cover{
+ height: 400px;
+ background-image: url(./cover.jpg);
+ background-size: cover;
+ background-position: center;
+ color: rgba(255, 255, 255, .5);
+ background-blend-mode: darken;
+ color: white;
+ font-family: 'Karla', sans-serif;
+ }
+h1,h2,h3,h4,h5{
+    font-family: 'Rubik', sans-serif;
+}
+ .card{
+     border: 0 !important;
+
+ }
+ .cover-small{
+height: 200px;
+background-blend-mode: normal;
+ }
+
+ .card-title{
+min-height: 3rem;
+ }
+
+ .card-text{
+     min-height: 10rem;
+     font-family: 'Karla', sans-serif;
+ }
+
+ .stripe-container{
+     display: flex;
+ }
+
+ .stripe-container .card{
+     height: 300px;
+     flex-shrink: 0;
+     margin: 1rem;
+ }
+
+ .product-stripe{
+     overflow-x: scroll;
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+ }
+
+ .responsive-iframe{
+     position: relative;
+     padding-top: 56.25%;
+ }
+
+ 
+ .responsive-iframe iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+

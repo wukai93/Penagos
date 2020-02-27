@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi primera WEB</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Karla|Rubik&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">LOGO</a>
+            <ul class="nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Paginas/acerca.html" tabindex="-1" aria-disabled="true">About</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="cover d-flex justify-content-center align-items-center flex-column">
+            <h1>
+                Mi primera Web
+            </h1>
+            <p>
+                Hola mundo!
+            </p>
+            <button class="btn btn-secondary">Conocenos</button>
+        </div>
+    </header>
+    <SEction>
+        <!--mt = Margen Top-->
+        <div class="container mt-5">
+            <div class="row justify-content-md-center">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card">
+                        <div class="cover cover-small" style="background-image:url(./taquitos.jpg)"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Gourmet de Mexico</h5>
+                            <p class="card-text">El mejor sason para tu corazon.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card">
+                        <div class="cover cover-small" style="background-image:url(./totopos.jpg)"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Los mejores acompañamientos</h5>
+                            <p class="card-text">Sobres entrale con los totopos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card">
+                        <div class="cover cover-small" style="background-image:url(./tequila.jpg)"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">La mejor bebida</h5>
+                            <p class="card-text">Un tequilita para entrar en calor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </SEction>
+    <section>
+        <div class="container mt-5 mb-5" id="conocenos">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-5">
+                    <img src="./DogJumpDoodle.svg" alt="perrito con monita">
+                </div>
+                <div class="col-12 col-sm-6">
+                    <h3>Inicia tu dia con unos taquitos!</h3>
+                    <p>Busca en tu esquina mas cercana un puesto de taquitos grasosos pero sabrosos para que inicies tu
+                        dia</p>
+                    <a href="#mapa">Ir al mapa</a>
+                </div>
+            </div>
+            <form action="">
+                <label for="email">Correo electronico</label>
+                <div class="d-flex">
+                    <div class="form-group  flex-fill mr-2">
+                        <input type="email" id="email" class="form-control" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section>
+        <div class="container mt-5 mb-5">
+            <div class="product-stripe">
+                <div class="stripe-container">
+                    <div class="card">
+                        <div class="cover cover-small" style="background-image:url(./sopita.jpg)"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Sopita de fideos de la abuelita</h5>
+                            <span class="badge badge-info">$50.00 MXN</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cover cover-small" style="background-image:url(./burrito.jpg)"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Burritos de frijoles con chorizo de cerdo</h5>
+                            <span class="badge badge-info">$60.00 MXN</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cover cover-small" style="background-image:url(./tacos.jpg)"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Tacos del wero</h5>
+                            <span class="badge badge-info">$75.00 MXN</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cover cover-small" style="background-image:url(./tarritos.jpg)"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">TTaquitos acompañados de refresco</h5>
+                            <span class="badge badge-info">$80.50 MXN</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mt-5 mb-5 text-center" id="mapa">
+            <h4>Ubica nuestras sucursales</h4>
+            <p>Calle Pamoranes 345, Revolución Verde, 87024 Cd Victoria, Tamps.</p>
+            <div class="responsive-iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1826.0046531336757!2d-99.13650004816286!3d23.74704754623729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x867953a48e8639f5%3A0xfd3a999f4d42a7b9!2zMjPCsDQ0JzQ5LjgiTiA5OcKwMDgnMTIuNSJX!5e0!3m2!1ses-419!2smx!4v1581484233176!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            </div>
+    </section>
+</body>
+
+</html>
